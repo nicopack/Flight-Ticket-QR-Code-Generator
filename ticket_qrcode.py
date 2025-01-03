@@ -34,7 +34,7 @@ elif class_=="First":
 else:
     print("Please write Economy, Business or First.")
 
-ticket = "M1" + last_name + "/" + first_name + " " + "E" + booking_ref + from_ + to + flight_operator + " " + flight_number + " " + day_in_year + "0" + class_ + seat + boarding_index + "\n"
+ticket = "M1" + last_name + "/" + first_name + "            " + "E" + booking_ref + from_ + to + flight_operator + " " + flight_number + " " + day_in_year + "0" + class_ + seat + boarding_index + "\n"
 
 print(ticket)
 
